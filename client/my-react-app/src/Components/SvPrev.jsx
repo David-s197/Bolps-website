@@ -11,7 +11,7 @@ const Prvimg = [
     },
     {
         id: "2",
-        imgURL: "./cctv.webp"
+        imgURL: "/Camera.webp"
     },
     {
         id: "3",
