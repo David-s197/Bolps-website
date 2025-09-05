@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* { 
+  @apply m-0 p-0 box-border font-[Outfit];
+}
+
+.body {
+@apply bg-amber-600;
+}
+
+.cont{
+  @apply pl-[10%] pr-[10%]
+}
+@layer components {
+  
+.cardText{
+  @apply pr-[20px] pl-[30px] text-center
+}
+
+  nav{
+    @apply bg-white w-full  justify-between items-center z-10 flex flex-row fixed top-0 left-0 
+  }
+}
+
+@utility flex-center{
+  @apply flex justify-center items-center
+}
+
+.hero{
+  @apply w-full min-h-dvh bg-[linear-gradient(rgba(8,0,58,0.7)),url('./cctv.webp')] bg-center bg-no-repeat bg-cover 
+}
+
+nav ul{
+  @apply max-sm:fixed max-sm:top-0 max-sm:bottom-0 max-sm:right-0 max-sm:bg-orange-100 max-sm:z-[-1] max-sm:w-[150px] max-sm:pt-[70px] max-sm:duration-[0.5s] 
+}
+
+nav ul li{
+  @apply max-sm:block sm:inline-block list-none mx-[5px] sm:mx-[20px] my-[2px] sm:my-[5px] cursor-pointer max-sm:mx-[25px] max-sm:my-[40px]
+}
+
+.menu-icon{
+  @apply sm:hidden text-[30px] cursor-pointer
+}
+
+.hide-mobile-menu{
+  @apply right-[-200px]
+}
+
+a{
+  @apply text-inherit cursor-pointer leading-0
+}
+
+.hero-txt{
+  @apply text-white text-center max-w-[800px]
+}
+
+.hero-txt h1{
+  @apply text-[40px] md:text-[50px] font-semibold
+}
+
+hero-txt p {
+  @apply mt-[10px] mr-auto ml-auto mb-[20px] max-w-[700px]
+}
+
+.card{
+    @apply  mt-5 mb-5 justify-self-center justify-evenly md:mr-[20px] md:ml-[20px] rounded-lg shadow-xl md:px-6 md:py-8 flex h-[200px] md:h-[300px] w-1/2 md:w-1/4 overflow-hidden items-center bg-white
+  }
+
+.cardholder{
+  @apply  columns-1 gap-3 md:flex md:items-center md:justify-evenly w-screen md:h-[500px] h-[600px]
+}
+
+.carousel{
+  @apply flex justify-center flex-col w-[500px] md:w-[700px] overflow-hidden shadow-2xl rounded-2xl
+}
+
+.inner{
+  @apply whitespace-nowrap rounded-md
+}
+
+.carousel-item{
+  @apply inline-flex items-center justify-center h-[490ox] shadow-2xl bg-blue-950 rounded-md
+}
+
+.carousel-img{
+  @apply pr-[20px] pl-[20px] w-[100px] md:w-[200px]
+}
+
+.carousel-name{
+  @apply mt-[20px] md:mt-[40px] mb-[20px] md:mb-[40px] pr-[20px] pl-[20px] text-white
+}
+
+.carousel-title{
+  @apply mt-[40px] mb-[40px] pr-[20px] pl-[20px] text-white
+}
+
+.carousel-details{
+  @apply mt-[40px] mb-[40px] pr-[20px] pl-[20px] whitespace-normal md:text-base text-white text-[12px]
+}
+
+.carousel-button{
+  @apply flex justify-evenly rounded-2xl
+}
+
+.indicators{
+  @apply flex justify-around items-center mt-[20px]
+}
+
+.indicator-button{
+  @apply border-none cursor-pointer
+}
+
+.indicator-symbol-active{
+  @apply text-amber-800
+}
+.indicator-symbol{
+  @apply text-gray-950
+}
+.arrow-buttons{
+  @apply bg-none border-none cursor-pointer mt-[20px]
+}
+
+.headings{
+  @apply text-[30px] flex items-start justify-start m-[20px]
+}
+.headings h2{
+  @apply pr-5 pl-5 mt-1 mb-2
+}
+
+.partners{
+  @apply py-24  bg-gradient-to-b from-gray-500 via-gray-600 to-gray-700
+}
+
+.iconNames{
+  @apply p-2
+}
+footer{
+  @apply mt-[20px] pr-5 pl-5 bg-gradient-to-b from-orange-50 via-zinc-200 to-white
+}
+.copyrightbar{
+@apply  border-t pt-6 mt-6 text-center
+}
+footer h2{
+  @apply mb-4
+}
+
+footer li span {
+  @apply pb-[20px]
+}
+
+.border-t{
+  @apply pt-[10px]
+}
+
+.btn{
+  @apply cursor-pointer rounded-3xl shadow-2xl
+}
+
+.serv-title{
+  @apply pt-[120px] text-left pl-[20px] text-[40px] font-medium
+}
+
+.serv-title hr{
+  @apply border-none w-[120px] h-[5px] bg-black rounded-[10px] mb-[20px]
+}
+
+.contact{
+  @apply  flex-center min-h-[100vh] bg-orange-50
+}
+
+form{
+  @apply max-w-[600px] w-[100%] pt-[25px] pr-[25px] pb-[30px] m-[25px]
+}
+
+form h2{
+  @apply text-[30px] text-center
+}
+
+form .input-box{
+  @apply mt-[20px]
+}
+
+.input-box .field{
+  @apply w-[100%] h-[50px] bg-white border-[2px] border-solid border-white
+  outline-none p-[15px] text-[16px] mt-[8px] rounded-[8px] focus:border-black
+}
+
+textarea.field.mess{
+  @apply h-[140px] pt-[15px] focus:border-black
+}
+
+form button{
+  @apply h-[50px] w-[100px] rounded-[50px] border-none cursor-pointer bg-linear-to-l from-red-400 to-purple-600 text-white mt-[25px] transition duration-150 ease-in-out
+}
+form button{
+  @apply hover:from-red-500 
+}
+
+.prevCard{
+  @apply mr-[20px] ml-[20px] rounded-lg shadow-xl px-6 py-8 flex h-[300px] w-1/2 overflow-hidden items-center bg-white
+}
+
+.serviceM{
+  @apply flex justify-around items-start w-[500px] overflow-hidden text-justify
+}
+.serviceM p{
+@apply mr-3 text-[15px]
+}
+.serviceM li{
+  @apply md:pb-[10px] text-[15px] pb-1 ml-3
+}
