@@ -28,7 +28,7 @@
 }
 
 .hero{
-  @apply w-full min-h-dvh bg-[linear-gradient(rgba(8,0,58,0.7)),url('./Camera.webp')] bg-center bg-no-repeat bg-cover 
+  @apply w-full min-h-dvh bg-[linear-gradient(rgba(8,0,58,0.7)),url('/Camera.webp')] bg-center bg-no-repeat bg-cover 
 }
 
 nav ul{
