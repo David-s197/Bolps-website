@@ -4,7 +4,7 @@ import Footer from '../Components/Footer'
 import Hero from '../Components/Hero'
 import Carousel from '../Components/Carousel'
 import CardHolder from '../Components/CardHolder'
-import Partners from '../Components/partners'
+import Partners from '../Components/Partners'
 import SvPrev from '../Components/SvPrev'
 
 const Home = () => {
