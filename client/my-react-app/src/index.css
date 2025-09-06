@@ -70,7 +70,7 @@ hero-txt p {
 }
 
 .cardholder{
-  @apply place-content-center sm:flex sm:items-center sm:justify-evenly w-screen sm:h-[500px] h-[600px]
+  @apply grid place-content-center sm:flex sm:items-center sm:justify-evenly w-screen sm:h-[500px] h-[600px]
 }
 
 .carousel{
