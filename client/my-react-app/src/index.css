@@ -70,7 +70,7 @@ hero-txt p {
 }
 
 .cardholder{
-  @apply  columns-1 gap-3 sm:flex sm:items-center sm:justify-evenly w-screen sm:h-[500px] h-[600px]
+  @apply  columns-1 gap-3 items-center sm:flex sm:items-center sm:justify-evenly w-screen sm:h-[500px] h-[600px]
 }
 
 .carousel{
