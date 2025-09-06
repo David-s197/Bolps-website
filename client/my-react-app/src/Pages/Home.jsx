@@ -15,7 +15,7 @@ const Home = () => {
       <div className='headings'>
           <h2>About Us</h2>
           </div>
-      <div className='h-[500px] bg-orange-50'>
+      <div className='h-[600px] bg-orange-50'>
         <CardHolder/>
       </div>
       <SvPrev/>
