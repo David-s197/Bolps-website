@@ -68,11 +68,11 @@ hero-txt p {
   }
 
 .cardholder{
-  @apply  columns-1 gap-3 md:flex md:items-center md:justify-evenly w-screen md:h-[500px] h-[600px]
+  @apply  max-sm:columns-1 max-sm:gap-3 md:flex md:items-center md:justify-evenly w-screen md:h-[500px] h-[600px]
 }
 
 .carousel{
-  @apply flex justify-center flex-col w-[500px] md:w-[700px] overflow-hidden shadow-2xl rounded-2xl
+  @apply flex justify-center flex-col w-[400px] md:w-[700px] overflow-hidden shadow-2xl rounded-2xl
 }
 
 .inner{
@@ -84,7 +84,7 @@ hero-txt p {
 }
 
 .carousel-img{
-  @apply pr-[20px] pl-[20px] w-[100px] md:w-[200px]
+  @apply pr-[20px] pl-[20px] w-[120px] md:w-[200px]
 }
 
 .carousel-name{
